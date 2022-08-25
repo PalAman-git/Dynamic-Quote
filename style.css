@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,500;1,200&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(8, 2, 39);
     color: white;
     display: flex;
@@ -13,7 +15,8 @@ body{
     justify-content: center;
     height: 100vh;
 }
-#quote{
+
+#quote {
     font-family: Dancing Script;
     font-size: 50px;
     height: 400px;
@@ -23,33 +26,45 @@ body{
     border-bottom: none;
     padding: 40px;
 }
-#author{
+
+#author {
     position: absolute;
     bottom: 0px;
     color: white;
     /* border: 2px solid red; */
     height: 45px;
     width: 323px;
-    top: 470px;
+    top: 390px;
     right: 391px;
     font-family: poppins;
     font-size: 25px;
-    padding-top:2px ;
+    padding-top: 2px;
     font-weight: bold;
 }
-button{
+
+button {
     height: 5vh;
     width: 700px;
-    box-shadow: 0px 0px 15px 0px rgb(236, 234, 234);
+    box-shadow: 0px 0px 10px 0px rgb(215, 212, 10);
     color: black;
     font-family: poppins;
+    margin: 10px;
     font-size: 25px;
     padding-bottom: 25px;
     border-radius: 10px;
     border: none;
+    background-color: rgb(255, 238, 0);
 }
-button:hover{
+
+button:hover {
+    margin: 10px;
+    background-color: rgb(255, 238, 0);
     height: 5vh;
     width: 700px;
-    box-shadow: 0px 0px 15px 0px white;
+    box-shadow: 0px 0px 25px 0px rgb(255, 255, 0);
+}
+
+.buttondiv {
+    display: flex;
+    flex-direction: column;
 }
